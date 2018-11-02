@@ -7,6 +7,5 @@ jobs:
       - checkout # check out the code in the project directory
       - run: pwd
       - run: ls -al
-      - run: ls -al $CIRCLE_WORKING_DIRECTORY
       - run: echo $cert > web/private/test.cert # run the `echo` command
       - run: ls web/private/
