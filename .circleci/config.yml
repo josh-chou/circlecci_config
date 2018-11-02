@@ -8,4 +8,4 @@ jobs:
       - run: pwd
       - run: ls -al
       - run: echo $cert > web/private/test.cert # run the `echo` command
-      - run: ls web/private/
+      - run: cat web/private/test.cert
